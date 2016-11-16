@@ -1,0 +1,12 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile group: 'com.google.javascript', name: 'closure-compiler', version: '+'
+}
+
+mainClassName = "Clo"
